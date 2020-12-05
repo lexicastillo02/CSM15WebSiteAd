@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+<html> 
+    <script>
+    function button1() {
+        document.getElementById("iframeDisplay").innerHTML = "<iframe src=\"sodaAdd/soda.html\" height=\"200\" width=\"500\" ></iframe>";
+
+    }
+
+    function button2() {
+        document.getElementById("iframeDisplay").innerHTML = "<iframe src=\"https://www.youtube.com/embed/Fh_UDQnboRw\" height=\"200\" width=\"500\" ></iframe>";
+
+    }
+    
+    </script>
+
+
+    <head>
+        <title>JoinCSM15W</title>
+        <link rel="stylesheet" type="text/css" href="style15w.css">
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li>C</li>
+                <li>S</li>
+                <li>M</li>
+                <li>1</li>
+                <li>5</li>
+            </ul>
+        </header>
+        <!--WEbsite Showcase Section-->
+
+
+
+        <div class="container1">
+
+            <div class="helloThere">
+                <h3>Want To Learn <br>
+                    How To Make Amazing<br>
+                     Professional <br>
+                     Looking Websites?
+                    </h3>
+            </div>
+
+
+            <table style="height: 250x; width: 500px;">
+                <tr> 
+                    <td> <!--Within each cell of the table is a button for a specific website-->
+                        <button id="close-image" onclick="button1()">Press Me!</button>
+                    </td><!--I wasn't to crazy about the idea of using regular images, so I used the regular button 
+                    tag and the element within the button tag was the image tag-->
+                    <td>
+                        <button id="close-image" onclick="button2()">Press Me!</button> 
+                    </td><!--Rinse wash repeat, the only change was the image and the name of-->
+                </tr>
+            </table>
+        
+        
+            <div id="iframeDisplay"></div> 
+        </div>
+
+
+         <!--Text Animations Section-->
+        <div class="container2">
+
+            <div class="text-container2">
+                <h3>Ready To Learn <br>Some New Coding Languages?</h3>
+            </div>
+
+            <div class="animated-text">
+                <div class="black-screen">
+                    <h1 data-text="//Javascript//">//Javascript//</h1>
+                <h1 style="top: 40%;" data-text="//CSS//   ">//CSS//</h1>
+                <h1 style="top: 80%;" data-text="//HTML//   ">//HTML//</h1>
+                </div>
+            </div>
+        </div>
+
+
+         <!--Coding Gif Section-->
+        <div class="container3">
+            <img src="hacker.gif" alt="hacker-man">
+            <div class="jobReady">
+                <h3>
+                    UC And CSU Transferable!<br><br>
+                    Earn A Web Design Certificate of Achievement!<br><br>
+                    Get Job Ready!<br><br>
+                    Enroll Now For Spring 2021!!
+                </h3>
+            </div>
+        </div>
+
+
+         <!--Footer Section, contact info and possible lessons-->
+        <div class="container4">
+            <a href="https://www.moorparkcollege.edu" class="text-hover">WHAT ARE YOU WAITING FOR? <br>&nbsp &nbsp &nbspREGISTER TODAY!</a>
+        </div>
+
+    </body>
+</html>
